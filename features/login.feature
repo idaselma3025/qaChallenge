@@ -12,7 +12,7 @@ Feature: Login
         | "jensid145@gmail.com" | "SoFl7912**" |
         | "jensid3025@gmail.com" | "SoFl7912**" |
 
-  Scenario: Failed login through LOG IN
+  Scenario Outline: Failed login through LOG IN
 
       When Ida fills "EMAIL ADDRESS" with <email>
       And fills "PASSWORD" with <password>
