@@ -1,6 +1,6 @@
 # qaChallenge
 
-#To locally run this test:
+# To locally run this test:
 1. Copy the github url (https://github.com/idaselma3025/qaChallenge.git)
 2. In the command line navigate to where you would like the file and run "git clone https://github.com/idaselma3025/qaChallenge.git"
 3. Then cd into "qaChallenge"
