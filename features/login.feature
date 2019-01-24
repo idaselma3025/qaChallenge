@@ -19,3 +19,7 @@ Feature: Login
       And selects "LOG IN"
         Then Ida should still be on login page
         And see error "Incorrect username and/or password. Please try again."
+        Examples:
+        | email | password |
+        | "jensid145@gmail.com" | "SoFl7912ii" |
+        | "jensid3027@gmail.com" | "SoFl7912**" |
